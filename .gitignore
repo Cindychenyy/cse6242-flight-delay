@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~*
+
+# OS/Editors
+.DS_Store
+.idea/
+.vscode/
+
+# Data & models (keep small samples only)
+data/*
+!data/README.md
+models/*
+!models/README.md
+
+# Big outputs
+outputs/*.parquet
+outputs/*.feather
