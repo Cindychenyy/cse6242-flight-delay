@@ -1,0 +1,60 @@
+{
+  "best_model_name": "LightGBM",
+  "feature_names": [
+    "DISTANCE",
+    "MONTH_NUM",
+    "ORIGIN_CITY_ENC",
+    "DEST_CITY_ENC",
+    "ROUTE_ENC",
+    "AIRLINE_Alaska Airlines Inc.",
+    "AIRLINE_Allegiant Air",
+    "AIRLINE_American Airlines Inc.",
+    "AIRLINE_Delta Air Lines Inc.",
+    "AIRLINE_Endeavor Air Inc.",
+    "AIRLINE_Envoy Air",
+    "AIRLINE_Frontier Airlines Inc.",
+    "AIRLINE_Hawaiian Airlines Inc.",
+    "AIRLINE_Horizon Air",
+    "AIRLINE_JetBlue Airways",
+    "AIRLINE_Mesa Airlines Inc.",
+    "AIRLINE_PSA Airlines Inc.",
+    "AIRLINE_Republic Airline",
+    "AIRLINE_SkyWest Airlines Inc.",
+    "AIRLINE_Southwest Airlines Co.",
+    "AIRLINE_Spirit Air Lines",
+    "AIRLINE_United Air Lines Inc.",
+    "WeekdayName_Friday",
+    "WeekdayName_Monday",
+    "WeekdayName_Saturday",
+    "WeekdayName_Sunday",
+    "WeekdayName_Thursday",
+    "WeekdayName_Tuesday",
+    "WeekdayName_Wednesday"
+  ],
+  "threshold_tuned": 0.2,
+  "train_subsample": null,
+  "paths": {
+    "best_model_path": "data/part5_best_model.pkl",
+    "summary_csv": "data/part5_model_summary.csv",
+    "test_predictions": "data/part5_test_predictions.csv"
+  },
+  "test_metrics@0.5": {
+    "model": "LightGBM (test)",
+    "roc_auc": 0.6396863299011186,
+    "pr_auc": 0.3259998686288026,
+    "accuracy@0.5": 0.7812124299541519,
+    "precision@0.5": 0.49476987447698745,
+    "recall@0.5": 0.014688984814136207,
+    "f1@0.5": 0.02853092861235938
+  },
+  "test_metrics@tuned": {
+    "model": "LightGBM (test, tuned)",
+    "threshold*": 0.2,
+    "accuracy@t": 0.5533503141450161,
+    "precision@t": 0.28230943885825494,
+    "recall@t": 0.6757243563864477,
+    "f1@t": 0.3982393206193492,
+    "roc_auc": 0.6396863299011186,
+    "pr_auc": 0.3259998686288026
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "FEATURE_NAMES": [
+    "DISTANCE",
+    "MONTH_NUM",
+    "ORIGIN_CITY_ENC",
+    "DEST_CITY_ENC",
+    "ROUTE_ENC",
+    "AIRLINE_Alaska Airlines Inc.",
+    "AIRLINE_Allegiant Air",
+    "AIRLINE_American Airlines Inc.",
+    "AIRLINE_Delta Air Lines Inc.",
+    "AIRLINE_Endeavor Air Inc.",
+    "AIRLINE_Envoy Air",
+    "AIRLINE_Frontier Airlines Inc.",
+    "AIRLINE_Hawaiian Airlines Inc.",
+    "AIRLINE_Horizon Air",
+    "AIRLINE_JetBlue Airways",
+    "AIRLINE_Mesa Airlines Inc.",
+    "AIRLINE_PSA Airlines Inc.",
+    "AIRLINE_Republic Airline",
+    "AIRLINE_SkyWest Airlines Inc.",
+    "AIRLINE_Southwest Airlines Co.",
+    "AIRLINE_Spirit Air Lines",
+    "AIRLINE_United Air Lines Inc.",
+    "WeekdayName_Friday",
+    "WeekdayName_Monday",
+    "WeekdayName_Saturday",
+    "WeekdayName_Sunday",
+    "WeekdayName_Thursday",
+    "WeekdayName_Tuesday",
+    "WeekdayName_Wednesday"
+  ],
+  "LOW_CARD_COLS": [
+    "AIRLINE",
+    "WeekdayName"
+  ],
+  "HIGH_CARD_COLS": [
+    "ORIGIN_CITY",
+    "DEST_CITY",
+    "ROUTE"
+  ],
+  "ENC_HIGH_COLS": [
+    "ORIGIN_CITY_ENC",
+    "DEST_CITY_ENC",
+    "ROUTE_ENC"
+  ],
+  "NUM_COLS": [
+    "DISTANCE",
+    "MONTH_NUM"
+  ],
+  "ENC_NUM_COLS": [
+    "DISTANCE",
+    "MONTH_NUM",
+    "ORIGIN_CITY_ENC",
+    "DEST_CITY_ENC",
+    "ROUTE_ENC"
+  ],
+  "LABEL_COL": "DELAY_FLAG",
+  "DATE_PARTS": [
+    "FL_DATE",
+    "YEAR",
+    "MONTH_NUM",
+    "DAY_OF_MONTH"
+  ],
+  "CARRY_ALONG": [
+    "FL_NUMBER",
+    "Month"
+  ]
+}
